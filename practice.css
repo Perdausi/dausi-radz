@@ -1,0 +1,190 @@
+
+*{
+    font-family:'Arial';
+    font-weight: bold;
+}
+
+
+.p1{
+    color: rgb(0, 118, 0);
+    font-size: 17px;
+    font-weight: bold;
+}
+.p2{
+    font-size: 17px;
+}
+button{
+    cursor: pointer;
+}
+.btn1{
+    border: none;
+    width: 100px;
+    height: 30px;
+    background: rgb(255, 216, 20);
+    color: black;
+    border-radius: 15px;
+}
+.btn2{
+    border: none;
+    width: 100px;
+    height: 30px;
+    background: rgb(255, 164, 28);
+    color: black;
+    border-radius: 15px;
+}
+.box{
+    border: 1px solid black;
+    width: 30%;
+    height: 50%;
+    padding: 20px;
+
+}
+
+.box2{
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 30%;
+    height: 20vh;
+    padding: 20px;
+}
+
+.box2 h3{
+    display: fixed;
+    margin-top: -10px;
+    text-align: center;
+}
+
+
+.buttons{
+    text-align: center;
+    margin-top: 10%;
+}
+.btn-1{
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    border-radius:20px ;
+    color:white;
+    background: rgb(200, 0, 0); 
+    transition: 0.5s;
+    
+}
+.btn-1:hover{
+    opacity: 0.8;
+}
+
+.btn-1:active{
+    opacity: 0.5;
+}
+
+
+
+
+.btn-2{
+    border: 1px solid rgb(41, 118, 211) ;
+    padding: 10px 25px;
+    font-size: 17px;
+    color:rgb(41, 118, 211); 
+    transition: background 0.5s;
+    transition: color 0.5s;
+}
+.btn-2:hover{
+    background: rgb(41, 118, 211);
+    color: white;
+}
+.btn-2:active{
+    opacity: 0.5;
+}
+
+
+
+
+.btn-3{
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius:20px ;
+    color:white;
+    background: rgb(2, 137, 255);
+    transition: box-shadow 0.15s;
+}
+.btn-3:hover{
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.15) ;
+}
+
+
+.pagination{
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 32.9%;
+    height: 20vh;
+    position: relative;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20%;
+}
+.container button{
+    padding: 10px 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: background 0.5s;
+    transition: transform 0.5s;
+}
+
+.container button:hover{
+    background: gray;
+    transform: scale(1.13);
+}
+.container button:active{
+    background: black;
+    color: rgb(255, 136, 0);
+}
+
+
+
+
+.container a{
+    
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px ;
+    border-radius: 5px;
+    transition: background 0.4s;
+}
+.container a:hover{
+    background: gray;
+}
+.container a:active{
+    opacity: 0.5;
+    
+}
+
+
+
+
+.container-2{
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.pics{
+   display: flex;
+   gap: 50px;
+}
+.pics .img1{
+    border-radius: 10px;
+}
+
+.pics .img3{
+    border-radius: 50%;
+}
